@@ -9,7 +9,7 @@ export default function Homepage() {
                 <div>
                    <div className='welcome-text'>Hello</div> 
                    <div className='fade-in'>I'm George Sunny T</div>
-                   <div className='fade-in'>React web developer - 5years</div>
+                   <div className='fade-in'>React web developer - 5 years</div>
                 </div>
                 <div>
                     <img className="profile-pic"src={process.env.PUBLIC_URL + '/GeorgeSunnyT.png'} alt='a bearded good looking guy in mid 20s'></img>
@@ -18,7 +18,7 @@ export default function Homepage() {
                     I enjoy creating responsive web apps that scale on both large screens and mobile devices.
                 </div>
                 <div className='skill-box'>
-                    <div>Core skills</div>
+                    <div className='core-skills-title'>Primary skills</div>
                     <div className='core-skills'>
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -38,7 +38,7 @@ export default function Homepage() {
                         <div>Redux Toolkit</div>
                         <div>RTK Query</div>
                     </div>
-                    <div className="basic-skills-title">Basic Skills</div>
+                    <div className="basic-skills-title">Secondary Skills</div>
                     <div className='core-skills'>
                         <div>Java 8</div>
                         <div>Springboot</div>

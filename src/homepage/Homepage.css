@@ -56,6 +56,7 @@
 .description {
     margin-top: 2vh;
     animation: fade-in 5s both;
+    text-align: center;
 }
 
 .skill-box {
@@ -68,6 +69,10 @@
     padding: 10px;
     animation: fade-in 6s both;
     width: 40vw;
+}
+
+.core-skills-title {
+    margin-bottom: 1vh;
 }
 
 .core-skills {
@@ -84,6 +89,7 @@
 
 .basic-skills-title {
     margin-top: 1vh;
+    margin-bottom: 0.8vh;
 }
 
 .portfolio-box {
@@ -143,4 +149,10 @@
     .portfolio-description {
         font-size: 3vw;
     }    
+    .fa-linkedin, .fa-github-square, .fa-hackerrank {
+        font-size:4vh;
+    }
+    .contact-row div {
+        font-size: 2vw;
+    }
 }
