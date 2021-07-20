@@ -12,7 +12,7 @@ export default function Homepage() {
                    <div className='fade-in'>React web developer - 5years</div>
                 </div>
                 <div>
-                    <img className="profile-pic"src={process.env.PUBLIC_URL + '/GeorgeSunnyT.png'} alt='picture of a guy in mid 20s'></img>
+                    <img className="profile-pic"src={process.env.PUBLIC_URL + '/GeorgeSunnyT.png'} alt='a bearded good looking guy in mid 20s'></img>
                 </div>
                 <div className='description'>
                     I enjoy creating responsive web apps that scale on both large screens and mobile devices.
@@ -48,7 +48,7 @@ export default function Homepage() {
                 <a className='skill-box portfolio-box' href='https://social-house-expirement.netlify.app/'>
                     <div>Portfolio</div>
                     <div>
-                        <img className="portfolio-1-image" src={process.env.PUBLIC_URL + '/social-house.png'}></img>
+                        <img className="portfolio-1-image" src={process.env.PUBLIC_URL + '/social-house.png'} alt="a black background with social house written on it in white"></img>
                     </div>
                     <div className='portfolio-description'>An experimental social media application</div>
                 </a>
