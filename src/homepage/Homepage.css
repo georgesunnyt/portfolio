@@ -1,0 +1,134 @@
+.intro-container {
+    display: flex;
+    font-size: 4vh;
+    align-items: center;
+    margin-top: 6vh;
+    flex-direction: column;
+    padding:3vw;
+}
+
+.welcome-text {
+    opacity: 1;
+    animation: intro-fade 1.5s both;
+}
+
+@keyframes intro-fade {
+    0%{
+        opacity: 0;
+        transform: translateY(40vh);
+    }
+
+    50%{
+        opacity: 1;
+        transform: translateY(40vh); 
+    }
+
+    100%{
+        transform: translateY(0vh);
+    }
+}
+
+.fade-in {
+    animation: fade-in 3s both 
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.profile-pic {
+    clip-path: circle();
+    height: 20vh;
+    margin-top: 3vh;
+    animation: fade-in 4s both
+}
+
+.description {
+    margin-top: 2vh;
+    animation: fade-in 5s both;
+}
+
+.skill-box {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    padding: 10px;
+    animation: fade-in 6s both;
+    width: 40vw;
+}
+
+.core-skills {
+    display: flex;
+}
+
+.core-skills div{
+    margin-left: 1vw;
+    background-color: black;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.basic-skills-title {
+    margin-top: 1vh;
+}
+
+.portfolio-box {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8vh;
+}
+
+.portfolio-1-image {
+    width: 40vw;
+}
+
+.portfolio-description {
+    font-size: 1vw;
+}
+
+.contact-row a {
+    margin: 3vw;
+    text-decoration: none;
+}
+
+.fa-linkedin, .fa-github-square {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .intro-container {
+        font-size: 2.5vh;
+    } 
+    .profile-pic {
+        clip-path: circle();
+        height: 10vh;
+        margin-top: 3vh;
+        animation: fade-in 4s both
+    }
+    .redux {
+        font-size: 4.5vw;
+    }
+    .skill-box {
+        width: 90vw;
+    }
+    .portfolio-1-image {
+        width: 90vw;
+    }
+    .portfolio-description {
+        font-size: 3vw;
+    }    
+}
