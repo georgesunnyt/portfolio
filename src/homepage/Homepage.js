@@ -1,5 +1,5 @@
 import './Homepage.css'
-import {faLinkedin, faGithubSquare} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithubSquare, faHackerrank} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Homepage() {
@@ -55,9 +55,15 @@ export default function Homepage() {
                 <div className='contact-row'>
                     <a href='https://www.linkedin.com/in/georgesunnyt/'>
                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                        <div>Linkedin</div>
                     </a>
                     <a href='https://github.com/georgesunnyt/Social-House-frontend'>
                         <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
+                        <div>Github</div>
+                    </a>
+                    <a href='https://www.hackerrank.com/georgesunnyt'>
+                        <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
+                        <div>Hackerrank</div>
                     </a>
                 </div>
             </div>
