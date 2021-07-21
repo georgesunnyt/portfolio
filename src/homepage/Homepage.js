@@ -45,7 +45,7 @@ export default function Homepage() {
                         <div>SQL</div>
                     </div>
                 </div>
-                <a className='skill-box portfolio-box' href='https://social-house-expirement.netlify.app/'>
+                <a className='skill-box portfolio-box' href='https://social-house-experiment.netlify.app/'>
                     <div>Portfolio</div>
                     <div>
                         <img className="portfolio-1-image" src={process.env.PUBLIC_URL + '/social-house.png'} alt="a black background with social house written on it in white"></img>
