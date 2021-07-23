@@ -53,11 +53,11 @@ export default function Homepage() {
                     <div className='portfolio-description'>An experimental social media application</div>
                 </a>
                 <div className='contact-row'>
-                    <a href='https://www.linkedin.com/in/georgesunnyt/'>
+                    <a href='https://www.linkedin.com/in/georgesunnyt'>
                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                         <div>Linkedin</div>
                     </a>
-                    <a href='https://github.com/georgesunnyt/Social-House-frontend'>
+                    <a href='https://github.com/georgesunnyt'>
                         <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
                         <div>Github</div>
                     </a>
