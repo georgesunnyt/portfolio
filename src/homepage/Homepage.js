@@ -50,7 +50,7 @@ export default function Homepage() {
                     <div>
                         <img className="portfolio-1-image" src={process.env.PUBLIC_URL + '/social-house.png'} alt="a black background with social house written on it in white"></img>
                     </div>
-                    <div className='portfolio-description'>An experimental social media application</div>
+                    <div className='portfolio-description'>The front end for an experimental social media application</div>
                 </a>
                 <div className='contact-row'>
                     <a href='https://www.linkedin.com/in/georgesunnyt'>
